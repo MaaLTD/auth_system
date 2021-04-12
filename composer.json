@@ -1,5 +1,5 @@
 {
-    "name": "anton/httpdocs",
+    "name": "anton/auth-system",
     "description": "Login and register",
     "type": "project",
     "minimum-stability": "stable",
