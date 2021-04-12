@@ -1,0 +1,10 @@
+{% extends 'parts/base.twig' %}
+
+{% block body %}
+    <h1>Home page</h1>
+    {% if user is not null %}
+        <p>You are welcome, <b>{{ user.username|escape }}</b>! (<b>{{ user.email|escape }}</b>)</p>
+    {% else %}
+        <p>You aren't logged yet</p>
+    {% endif %}
+{% endblock %}
